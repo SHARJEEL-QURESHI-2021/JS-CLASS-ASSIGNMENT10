@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q:13</title>
+</head>
+<body>
+    <h1>Chp # Date Method</h1>
+    <ul>
+        <li>
+            <a href="./Home.html" style="color: black; text-decoration: none;">Home</a>
+        </li>
+    </ul>
+    <script>
+        document.write("<h1>" + "<b>" + "K-Electric Bill" + "</b>" + "</h1>");
+
+        var n = prompt("Please Enter Your Name");
+        var m = prompt("Please Enter Month");
+        var numOfUnit = 410; 
+        var chargePerUnit = prompt("Please Enter Charge Unit");
+        var netAmountPayable = numOfUnit * chargePerUnit;    
+        var latePaymentSurcharge = 350;    
+        var grossAmountPayable = netAmountPayable + latePaymentSurcharge;    
+
+        document.write("<h1>" + "Customer Name: " + "<b>" + n + "</b>" + "</h1>");
+        document.write("<h1>" + "Month Name: " + "<b>" + m + "</b>" + "</h1>");     
+        document.write("<h1>" + "Number Of Units: " + "<b>" + numOfUnit + "</b>" + "</h1>");
+        document.write("<h1>" + "Charge Per Units: " + "<b>" + chargePerUnit + "</b>" + "</h1>" + "<br>");    
+        document.write("<h1>" + "Net Amount Payable (Within Due Date): " + "<b>" + netAmountPayable + "</b>" + "</h1>");
+        document.write("<h1>" + "Late Payment Surcharge: " + "<b>" + latePaymentSurcharge + "</b>" + "</h1>");
+        document.write("<h1>" + "Gross Amount Payable (After Due Date): " + "<b>" + grossAmountPayable + "</b>" + "</h1>");    
+
+    </script>
+</body>
+</html>

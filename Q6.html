@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q:6</title>
+</head>
+<body>
+    <h1>Chp # Date Method</h1>
+    <ul>
+        <li>
+            <a href="./Home.html" style="color: black; text-decoration: none;">Home</a>
+        </li>
+    </ul>
+    <script>
+        var a = new Date();
+        var b = new Date("1970,Jan,1");
+        document.write("<h1>" + "<b>" + "Current Date: " + a + "</b>" + "</h1>");
+        var c = Math.round(a / (1000) - b / (1000));
+        var d = a / (1000 * 60 * 60)  - b / (1000 * 60 * 60);
+        document.write("<h1>" + "<b>" + "Elapsed Milliseconds Since January 1, 1970: " + c + "</b>" + "</h1>");
+        document.write("<h1>" + "<b>" + "Elapsed Minutes Since January 1, 1970: " + d + "</b>" + "</h1>");
+    </script>
+</body>
+</html>

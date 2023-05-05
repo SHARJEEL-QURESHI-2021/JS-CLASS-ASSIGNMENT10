@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q:4</title>
+</head>
+<body>
+    <h1>Chp # Date Method</h1>
+    <ul>
+        <li>
+            <a href="./Home.html" style="color: black; text-decoration: none;">Home</a>
+        </li>
+    </ul>
+    <script>
+        var a = new Date();
+        var b = a.toString(" ").slice(0,3);
+        document.write("<h1>" + "<b>" + b + "</b>" + "</h1>");
+        if(b == "Sat"){
+            document.write("<h1>" + "<b>" + "It's Fun Day" + "</b>" + "</h1>");
+        }else if(b == "Sun"){
+            document.write("<h1>" + "<b>" + "It's Fun Day" + "</b>" + "</h1>");
+        }else{
+            document.write("<h1>" + "<b>" + "It's Not A Fun Day" + "</b>" + "</h1>");
+        }
+    </script>
+</body>
+</html>

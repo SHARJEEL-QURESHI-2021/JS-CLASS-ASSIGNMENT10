@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q:10</title>
+</head>
+<body>
+    <h1>Chp # Date Method</h1>
+    <ul>
+        <li>
+            <a href="./Home.html" style="color: black; text-decoration: none;">Home</a>
+        </li>
+    </ul>
+    <script>
+        var a = new Date("2015,Dec,5,23:09:37");
+        var b = new Date("2015,Dec,5,22:09:37");
+        var c = Math.round(a / (1000 * 60 * 60));
+        var d = Math.round(b / (1000 * 60 * 60));
+        var e = c - d;
+        document.write("<h1>" + "<b>" + "Current Date: " + a + "</b>" + "</h1>");
+        document.write("<h1>" + "<b>" + e + " hour ago, it was " + b + "</b>" + "</h1>");
+    </script>
+</body>
+</html>
